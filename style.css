@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    background: rgb(233, 228, 228);
+    }
+    
+.tarjeta{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px;
+    padding: 10px;   
+}
+    
+header{
+    background: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contenidopadre{
+    background: gray;
+    margin: 20px;
+    width: 600px;
+    margin-left: auto;
+	margin-right: auto;
+   
+}
+
+.arriba{
+    background: white;
+    display: flex;
+    flex-flow: nowrap;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.linea1{
+    flex: 1 1 auto;
+}
+
+.linea2{
+    flex: 1 1 auto;
+    text-align: right;
+}
+
+.medio{
+    background: white;
+}
+
+img{
+    width: 100%;
+    height: 450px;
+}
+.comentario{
+    background:white;
+    padding-top: 10px;
+}
